@@ -11,7 +11,14 @@ I've written several useful methods for computing desired values
    However, I could gather a processing time, and change the number of threads(as an example).\
    With this knowledge now we can determine how much serial processing proportion **we have, and aim to reduce it**. The method returns the most effective number of processes.
    This method takes Tuple(processing time, number of processes). More values, better and precise output.
+   
+   
+| Processing time in ms | 14199 | 16922 | 4568 | 3527 | 2904 | 2409 | 2102 | 1886 | 1892 | 1871 |
+|:---------------------:|-------|-------|------|------|------|------|------|------|------|------|
+| Number of processes   | 1     | 2     | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |                                
 
-
+Result:
+Serial proportion: 13.28%.\
+The most optimal number of process: 6
 
 There's my attempt at modeling parallel work: `src/main/scala/SomeApp.scala` 
