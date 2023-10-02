@@ -18,7 +18,7 @@ I've written several useful methods for computing desired values
 | Number of processes   | 1     | 2     | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |                                
 
 
-**Serial proportion: 13.28%.\**
+**Serial proportion: 13.28%.**\
 **The most optimal number of process: 6**
 
 There's my attempt at modeling parallel work: `src/main/scala/SomeApp.scala` 
